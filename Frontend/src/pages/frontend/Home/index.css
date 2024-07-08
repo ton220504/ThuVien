@@ -1,0 +1,197 @@
+.khuyenmai {
+    background: linear-gradient(180deg, #BF1E2E 0%, #cc0c09 50%, #fa2c29 100%);
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.hinh{
+    border-radius: 12px;
+}
+.dienthoai .row .hinh{
+    
+    
+    overflow: hidden;
+}
+
+.dienthoai img {
+    transition: all 0.3s ease-in-out; 
+    
+}
+
+.dienthoai :hover img {
+   
+    transform: scale(1.1);
+}
+
+.iphone{
+    border-radius: 12px;
+}
+.iphone img {
+    transition: all 0.3s ease-in-out; 
+    
+}
+
+.iphone :hover img {
+  
+    transform: scale(0.9);
+}
+.iphone .row .iphinh{
+    
+    
+    overflow: hidden;
+}
+
+.ipad{
+    border-radius: 12px;
+}
+.ipad img {
+    transition: all 0.3s ease-in-out; 
+    
+}
+
+.ipad :hover img {
+   
+    transform: scale(0.9);
+}
+.ipad .row .idhinh{
+    overflow: hidden;
+}
+
+.macbook{
+    border-radius: 12px;
+}
+.macbook img {
+    transition: all 0.3s ease-in-out; 
+    
+}
+
+.macbook :hover img {
+   
+    transform: scale(0.9);
+}
+.macbook .row .mbhinh{
+    overflow: hidden;
+}
+
+.watch{
+    border-radius: 12px;
+}
+.watch img {
+    transition: all 0.3s ease-in-out; 
+    
+}
+
+.watch :hover img {
+ 
+    transform: scale(0.9);
+}
+.watch .row .whinh{
+    overflow: hidden;
+}
+
+.category img {
+    transition: all 0.3s ease-in-out; 
+    border-radius: 15px;
+   
+}
+
+.category :hover img {
+  
+    transform:scale(0.9);
+    
+}
+
+
+#navbarNavDropdown ul li ul{
+    display: none;
+}
+#navbarNavDropdown ul li:hover ul{
+    display:block;
+   
+}
+#navbarNavDropdown ul li ul li:hover a{
+    color: #fa2c29;
+}
+#navbarNavDropdown ul li ul li a:hover{
+    background-color: black;
+}
+
+
+.danhmuc img {
+    transition: all 0.3s ease-in-out; 
+    border-radius: 15px;
+   
+}
+
+.danhmuc :hover img {
+    transform:scale(1.1); 
+}
+
+
+#chinhsach #cs:hover a{
+    color: red;
+}
+#huongdan #cs:hover a{
+    color: red;
+}
+#ketnoi:hover a{
+    color: red;
+}
+#hotro:hover a{
+    color: red;
+}
+
+
+.time .item{
+    color: white;
+    position: relative;
+    background-color: black;
+    border-radius: 12px;
+    width: 60px;
+    height: 60px;
+}
+.time{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    column-gap: 20px;
+    grid-template-rows: 100px;
+}
+#day,#hour,#minute,#secound{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-input {
+    width: 50px;
+    text-align: center;
+  }
+  .quantity {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-display {
+    margin: 0 10px;
+  }
+.ul-header{
+    
+    position: absolute;
+    top: 50px;
+    left: -30px;
+    display: none;
+    
+}
+.tim-kiem:focus ~ .ul-header{
+    display: block;
+}

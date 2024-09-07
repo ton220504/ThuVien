@@ -1,6 +1,10 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+//test
+
+
+
 const ChiTiet = () => {
     const [quantity, setQuantity] = useState(1);
     const [totalPrice, setTotalPrice] = useState(71000);
